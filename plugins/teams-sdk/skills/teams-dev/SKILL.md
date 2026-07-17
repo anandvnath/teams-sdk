@@ -42,6 +42,26 @@ Based on the user's request, route to the appropriate guide or handle directly:
 - Read the **[Troubleshooting guide](references/troubleshooting.md)**
 - Covers: Sideloading issues, auth errors, SSO problems, migration issues
 
+**Fixing or upgrading for NGC (New Gen Channels) — shared & private channels:**
+
+- When diagnosing or fixing a bug/error related to how the app behaves in
+  **shared or private channels** (New Gen Channels / NGC), or when asked about
+  upgrading to support NGC, consult the official NGC documentation and recommend
+  changes. Provide clear guidance on what changes need to be made in the code and
+  why. Ask if code changes should be attempted. Only if the user wants, perform
+  code changes. By default, limit the engagement to recommending changes with
+  clear pointers on why the changes are needed.
+  - [Build apps for shared and private channels](https://learn.microsoft.com/en-us/microsoftteams/platform/build-apps-for-shared-private-channels)
+
+  **Additional resources** — Graph/SDK API references, consult only if you need
+  details of a specific API:
+  - [Graph API: channel resource](https://learn.microsoft.com/en-us/graph/api/resources/channel?view=graph-rest-1.0)
+  - [Graph API: list allMembers](https://learn.microsoft.com/en-us/graph/api/channel-list-allmembers?view=graph-rest-1.0)
+  - [Graph API: get filesFolder](https://learn.microsoft.com/en-us/graph/api/channel-get-filesfolder?view=graph-rest-1.0)
+  - [Graph API: channel membership change notifications](https://learn.microsoft.com/en-us/graph/teams-changenotifications-channelmembership)
+  - [Teams SDK (.NET)](https://learn.microsoft.com/en-us/dotnet/api/microsoft.teams.apps?view=msteams-sdk-dotnet-latest)
+  - [Teams SDK (TypeScript)](https://learn.microsoft.com/en-us/javascript/api/teams-sdk-typescript/?view=msteams-sdk-ts-latest)
+
 ### Simple Operations (Handle Directly)
 
 For simple queries and updates, handle directly using the commands below:
